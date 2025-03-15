@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="exampleSecondFragment" type="id" />
+    <item name="action_secondFragment_to_firstFragment" type="id" />
+    <item name="action_firstFragment_to_secondFragment" type="id" />
+</resources>

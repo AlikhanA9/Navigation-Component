@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/exampleFirstFragment">
+
+    <fragment
+        android:id="@+id/exampleFirstFragment"
+        android:name="com.example.myapplicationnn.ExampleFirstFragment"
+        android:label="fragment_example_first">
+
+        <action
+            android:id="@+id/action_exampleFirstFragment_to_exampleSecondFragment"
+            app:destination="@id/exampleSecondFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exampleSecondFragment"
+        android:name="com.example.myapplicationnn.ExampleSecondFragment"
+        android:label="fragment_example_second">
+
+        <action
+            android:id="@+id/action_exampleSecondFragment_to_exampleFirstFragment"
+            app:destination="@id/exampleFirstFragment" />
+    </fragment>
+</navigation>

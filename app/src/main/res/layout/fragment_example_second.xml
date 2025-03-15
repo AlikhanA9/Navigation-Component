@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/helloS"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0024E4"
+    tools:context=".ExampleSecondFragment">
+
+    <ImageView
+        android:id="@+id/pauk1"
+        android:layout_width="574dp"
+        android:layout_height="936dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pauk2" />
+
+    <Button
+        android:id="@+id/secondEx"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#3B402121"
+        android:elevation="8dp"
+        android:text="Chang Fragment"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textViewFact1"
+        android:layout_width="234dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_margin="200dp"
+        android:textColor="#FBFBFB" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#3B402121"
+        android:text="SowRandom" />
+
+
+</FrameLayout>

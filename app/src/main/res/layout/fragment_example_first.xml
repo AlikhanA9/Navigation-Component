@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E606">
+
+    <ImageView
+        android:id="@+id/pauk2"
+        android:layout_width="641dp"
+        android:layout_height="869dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pauk1" />
+
+    <Button
+        android:id="@+id/firstEx"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#3B402121"
+        android:text="First Fragment" />
+
+    <TextView
+        android:id="@+id/textViewFact"
+        android:layout_width="234dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_margin="200dp"
+        android:textColor="#FBFBFB" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="700dp"
+        android:backgroundTint="#3B402121"
+        android:text="Sow Random" />
+
+</FrameLayout>
