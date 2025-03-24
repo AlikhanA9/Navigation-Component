@@ -28,6 +28,7 @@
         android:layout_height="115dp"
         android:layout_gravity="center"
         android:layout_margin="200dp"
+        android:textSize="20sp"
         android:textColor="#FBFBFB" />
 
     <Button

@@ -29,7 +29,7 @@ class ExampleSecondFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.secondEx.setOnClickListener {
-            findNavController().navigate(R.id.action_exampleSecondFragment_to_exampleFirstFragment)
+            findNavController().navigate(R.id.action_exampleSecondFragment_to_exampleMemesFragment)
         }
         binding.button2.setOnClickListener {
             lifecycleScope.launch {
@@ -45,4 +45,5 @@ class ExampleSecondFragment : Fragment() {
         }
     }
 }
+
 

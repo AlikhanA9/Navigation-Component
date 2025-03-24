@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/exampleFirstFragment">
 
     <fragment
         android:id="@+id/exampleFirstFragment"
         android:name="com.example.myapplicationnn.ExampleFirstFragment"
         android:label="fragment_example_first">
-
         <action
             android:id="@+id/action_exampleFirstFragment_to_exampleSecondFragment"
             app:destination="@id/exampleSecondFragment" />
@@ -16,10 +15,20 @@
     <fragment
         android:id="@+id/exampleSecondFragment"
         android:name="com.example.myapplicationnn.ExampleSecondFragment"
-        android:label="fragment_example_second">
-
+        android:label="fragment_example_second"
+        tools:layout="@layout/fragment_example_second">
         <action
-            android:id="@+id/action_exampleSecondFragment_to_exampleFirstFragment"
+            android:id="@+id/action_exampleSecondFragment_to_exampleMemesFragment"
+            app:destination="@id/exampleMemesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/exampleMemesFragment"
+        android:name="com.example.myapplicationnn.ExampleMemesFragment"
+        android:label="fragment_example_memes"
+        tools:layout="@layout/fragment_example_memes" >
+        <action
+            android:id="@+id/action_exampleMemesFragment_to_exampleFirstFragment"
             app:destination="@id/exampleFirstFragment" />
     </fragment>
 </navigation>

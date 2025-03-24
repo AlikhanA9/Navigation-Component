@@ -30,7 +30,6 @@ class ExampleFirstFragment : Fragment() {
 
         binding.firstEx.setOnClickListener {
             findNavController().navigate(R.id.action_exampleFirstFragment_to_exampleSecondFragment)
-
         }
         binding.button1.setOnClickListener {
             lifecycleScope.launch {
@@ -45,5 +44,7 @@ class ExampleFirstFragment : Fragment() {
         }
     }
 }
+
+
 
 
